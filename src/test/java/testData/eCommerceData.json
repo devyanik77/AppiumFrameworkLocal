@@ -1,0 +1,12 @@
+[
+  {
+    "name": "testUser1",
+    "gender": "female",
+    "country": "Argentina"
+  },
+  {
+    "name": "testUser2",
+    "gender": "male",
+    "country": "Aruba"
+  }
+]

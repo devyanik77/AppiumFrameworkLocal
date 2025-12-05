@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T12:20:16Z" name="Master Suite" finished-at="2025-12-05T12:21:41Z" duration-ms="84333">
+    <groups>
+      <group name="regression">
+        <method signature="FillFormDataProviderTest.verifyFormSubmissionLoadsProducts(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" name="verifyFormSubmissionLoadsProducts" class="automationtestingedge.FillFormDataProviderTest"/>
+        <method signature="FillFormDataProviderTest.verifyMissingNameToast(java.lang.String, java.lang.String)[pri:1, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" name="verifyMissingNameToast" class="automationtestingedge.FillFormDataProviderTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-12-05T12:20:16Z" name="All Tests" finished-at="2025-12-05T12:21:41Z" duration-ms="84333">
+      <class name="automationtestingedge.FillFormDataProviderTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:20:16Z" name="configureAppium" finished-at="2025-12-05T12:20:37Z" duration-ms="20294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="resetApplicationState()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:20:37Z" name="resetApplicationState" finished-at="2025-12-05T12:20:38Z" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetApplicationState -->
+        <test-method signature="verifyMissingNameToast(java.lang.String, java.lang.String)[pri:1, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:20:38Z" name="verifyMissingNameToast" description="GSTORE-FORM-005 | Validate toast message when name is missing" data-provider="invalidFormData" finished-at="2025-12-05T12:20:50Z" duration-ms="12032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMissingNameToast -->
+        <test-method is-config="true" signature="resetApplicationState()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:20:50Z" name="resetApplicationState" finished-at="2025-12-05T12:20:52Z" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetApplicationState -->
+        <test-method signature="verifyMissingNameToast(java.lang.String, java.lang.String)[pri:1, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:20:52Z" name="verifyMissingNameToast" description="GSTORE-FORM-005 | Validate toast message when name is missing" data-provider="invalidFormData" finished-at="2025-12-05T12:21:07Z" duration-ms="14970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aruba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMissingNameToast -->
+        <test-method is-config="true" signature="resetApplicationState()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:21:07Z" name="resetApplicationState" finished-at="2025-12-05T12:21:09Z" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetApplicationState -->
+        <test-method signature="verifyFormSubmissionLoadsProducts(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:21:09Z" name="verifyFormSubmissionLoadsProducts" description="GSTORE-FORM-006 | Validate form submission with valid data" data-provider="validFormData" finished-at="2025-12-05T12:21:21Z" duration-ms="12699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Argentina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormSubmissionLoadsProducts -->
+        <test-method is-config="true" signature="resetApplicationState()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:21:21Z" name="resetApplicationState" finished-at="2025-12-05T12:21:22Z" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetApplicationState -->
+        <test-method signature="verifyFormSubmissionLoadsProducts(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:21:22Z" name="verifyFormSubmissionLoadsProducts" description="GSTORE-FORM-006 | Validate form submission with valid data" data-provider="validFormData" finished-at="2025-12-05T12:21:39Z" duration-ms="16959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aruba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormSubmissionLoadsProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automationtestingedge.FillFormDataProviderTest@1b32cd16]" started-at="2025-12-05T12:21:39Z" name="tearDown" finished-at="2025-12-05T12:21:41Z" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationtestingedge.FillFormDataProviderTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Master Suite -->
+</testng-results>

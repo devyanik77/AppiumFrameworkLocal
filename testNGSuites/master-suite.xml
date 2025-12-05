@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite" verbose="1" preserve-order="true">
+
+    <listeners>
+        <listener class-name="TestBase.Listeners"/>
+    </listeners>
+
+    <test name="All Tests" thread-count="5">
+        <classes>
+            <class name="automationtestingedge.FillFormTests"/>
+            <class name="automationtestingedge.FillFormDataProviderTest"/>
+            <class name="automationtestingedge.FillFormParameterizedTest"/>
+            <class name="automationtestingedge.AddProductToCartTest"/>
+            <class name="automationtestingedge.EndToEndFlowTest"/>
+        </classes>
+    </test>
+
+</suite>

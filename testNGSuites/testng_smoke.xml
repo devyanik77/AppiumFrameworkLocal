@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" verbose="1" preserve-order="true">
+
+  <!-- include only tests that belong to group "smoke" -->
+  <groups>
+    <run>
+      <include name="smoke"/>
+    </run>
+  </groups>
+
+  <!-- listeners -->
+  <listeners>
+    <listener class-name="TestBase.Listeners"/>
+  </listeners>
+
+  <test name="Smoke Tests" thread-count="5">
+        <classes>
+            <class name="automationtestingedge.FillFormTests"/>
+            <class name="automationtestingedge.FillFormDataProviderTest"/>
+            <class name="automationtestingedge.FillFormParameterizedTest"/>
+            <class name="automationtestingedge.AddProductToCartTest"/>
+            <class name="automationtestingedge.EndToEndFlowTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="1" preserve-order="true">
+
+    <!-- Run only regression tests -->
+    <groups>
+        <run>
+            <include name="regression"/>
+        </run>
+    </groups>
+
+    <!-- Listeners -->
+    <listeners>
+        <listener class-name="TestBase.Listeners"/>
+    </listeners>
+
+    <!-- Test Blocks -->
+    <test name="Regression Tests" thread-count="5">
+        <classes>
+            <class name="automationtestingedge.FillFormTests"/>
+            <class name="automationtestingedge.EndToEndFlowTest"/>
+            <class name="automationtestingedge.AddProductToCartTest"/>
+            <class name="automationtestingedge.FillFormDataProviderTest"/>
+            <class name="automationtestingedge.FillFormParameterizedTest"/>
+        </classes>
+    </test>
+
+</suite>

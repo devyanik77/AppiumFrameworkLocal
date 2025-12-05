@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestBase.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Fill Form Test with data parameterization(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="automationtestingedge.TC_004_android_FillForm_Para">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="formSubmitValidation" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationtestingedge.TC_004_android_FillForm_Para -->
+    </classes>
+  </test> <!-- Fill Form Test with data parameterization(failed) -->
+</suite> <!-- Failed suite [Suite] -->

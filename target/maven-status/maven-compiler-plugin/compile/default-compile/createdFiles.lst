@@ -1,0 +1,7 @@
+automationtestingedge\pageObjects\android\CheckoutPage.class
+utils\AppiumUtils.class
+automationtestingedge\pageObjects\android\ProductCataloguePage.class
+automationtestingedge\pageObjects\android\TermsPopupPage.class
+automationtestingedge\pageObjects\android\CartPage.class
+automationtestingedge\pageObjects\android\FormPage.class
+utils\AppiumUtils$1.class
